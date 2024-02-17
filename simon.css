@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+}
+.layout{
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#functional{
+    display: flex;
+    flex-direction: column;
+}
+.pair1,.pair2{
+    display: flex;
+}
+.pair1{
+    margin-top: 1rem;
+}
+
+.color{
+    width: 170px;
+    height: 170px;
+    border: 5px solid black;
+   border-radius: 1.2rem;
+    margin: 7px;
+}
+
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+
+.clicked{
+
+    transition: "opacity box-shadow" ;
+    transition-duration: 1s;
+    box-shadow: 2px white;
+    opacity: 0.5;
+}
+
+
+.unclicked{
+    box-shadow: 0px;
+    opacity: 1;
+}
+
